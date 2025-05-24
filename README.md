@@ -1,23 +1,29 @@
 # Timer
-windows desktop timer tool
+
+Windows desktop timer tool，design using Python and PySide6.
 
 ## 程序功能
+
 + 日历显示
 + 作息时间显示和编辑
 + 课程表显示和编辑
 + 课程提醒
 + 倒数日显示和编辑
 + 日志记录和查阅
-+ 系统设置
++ 显示颜色编辑
 + 使用配置文件
+
 ## 程序框架结构
+
 + GUI模块
 + 课程表查看/编辑模块
 + 倒数日查看/编辑模块
 + 作息表查看/编辑模块
 + 数据库/数据源模块
 + 日历模块
-+ 常量模块
 + 工具模块
 + 日志记录模块
++ 配置文件模块
+
 ## 采用Model-View模式
+将数据与视图分离。
